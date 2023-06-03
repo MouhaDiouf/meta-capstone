@@ -1,0 +1,16 @@
+.main-nav {
+    grid-column-start: 2;
+    justify-self: end;
+}
+.main-nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.main-nav li {
+    margin: 10px;
+}
+
+.main-nav ul li a {
+    text-decoration: none;
+}

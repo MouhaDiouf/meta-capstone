@@ -1,10 +1,10 @@
 import React from "react";
-
+import "./Footer.css";
 function Footer() {
     return (
         <footer>
             <section>
-                <h2>Doormat Navigation</h2>
+                <h3>Doormat Navigation</h3>
                 <ul>
                     <li>
                         <a href="/">Home</a>
@@ -27,7 +27,7 @@ function Footer() {
                 </ul>
             </section>
             <section>
-                <h2>Contact</h2>
+                <h3>Contact</h3>
                 <ul>
                     <li>
                         <a href="/">Address</a>
@@ -41,7 +41,7 @@ function Footer() {
                 </ul>
             </section>
             <section>
-                <h2>Social Media Links</h2>
+                <h3>Social Media Links</h3>
                 <ul>
                     <li>
                         <a href="/">Address</a>

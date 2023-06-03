@@ -1,0 +1,27 @@
+footer {
+    margin: 0 auto;
+    max-width: 2000px;
+    text-align: center;
+    background-color: var(--primary-green);
+}
+
+footer section {
+    list-style: none;
+    justify-self: center;
+}
+
+footer ul li {
+    list-style: none;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+@media only screen and (min-width: 600px) {
+    footer {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
