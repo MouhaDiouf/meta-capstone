@@ -1,4 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Markazi+Text:wght@400;700&display=swap");
+
 :root {
     --primary-green: #495e57;
     --primary-yellow: #f4ce14;
+}
+
+.background-primary-green {
+    background-color: var(--primary-green);
+}
+
+.margin-bottom-none {
+    margin-bottom: 0;
+}
+
+.margin-bottom-xsmall {
+    margin-bottom: 5px;
+}
+.margin-top-xsmall {
+    margin-top: 5px;
+}
+
+.color-green {
+    color: var(--primary-green);
+}
+
+.color-yellow {
+    color: var(--primary-yellow);
+}
+
+.color-white {
+    color: white;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Markazi Text", serif;
+}
+
+h1,
+h2 {
+    margin: 10px auto;
+}
+
+.text-white {
+    color: white;
+}
+
+p,
+span,
+q,
+ul,
+li,
+a,
+button {
+    font-family: "Karla", serif;
+}
+
+button {
+    padding: 20px 30px;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    max-width: 300px;
+}
+
+img {
+    border-radius: 10px;
+}
+
+.button-yellow {
+    background-color: var(--primary-yellow);
+}
+
+.text-center {
+    text-align: center;
 }

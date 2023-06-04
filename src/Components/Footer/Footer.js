@@ -4,7 +4,9 @@ function Footer() {
     return (
         <footer>
             <section>
-                <h3>Doormat Navigation</h3>
+                <h3>
+                    Doormat <br /> Navigation
+                </h3>
                 <ul>
                     <li>
                         <a href="/">Home</a>

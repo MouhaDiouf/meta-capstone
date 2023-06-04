@@ -1,0 +1,28 @@
+.card {
+    max-width: 264px;
+    background-color: #edefee;
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+
+.card img {
+    max-width: 100%;
+}
+
+.card-text-container {
+    padding: 20px;
+}
+.card-title-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+
+.card-text-container .title {
+    font-size: 24px;
+}
+
+.card .price {
+    color: #ee9972;
+    justify-self: end;
+}

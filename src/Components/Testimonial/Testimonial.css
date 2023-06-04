@@ -1,0 +1,20 @@
+.testimonial-container {
+    background: white;
+    justify-self: center;
+    padding: 10px 20px;
+}
+
+.testimonial-container img {
+    max-width: 80px;
+}
+
+.testimonial-image-container {
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+}
+@media screen and (min-width: 600px) {
+    .testimonial-container {
+        width: 200px;
+    }
+}

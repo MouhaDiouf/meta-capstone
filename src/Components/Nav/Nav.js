@@ -1,11 +1,12 @@
 import React from "react";
 import "./Nav.css";
+import { Link } from "react-router-dom";
 function Nav() {
     return (
         <nav className="main-nav">
             <ul>
                 <li>
-                    <a href="/">Home</a>
+                    <Link to="/">Home</Link>
                 </li>
                 <li>
                     <a href="/about">About</a>
@@ -14,7 +15,7 @@ function Nav() {
                     <a href="/menu">Menu</a>
                 </li>
                 <li>
-                    <a href="/reservations">Reservations</a>
+                    <Link to="/reservations">Reservations</Link>
                 </li>
                 <li>
                     <a href="/order-online">Order Online</a>

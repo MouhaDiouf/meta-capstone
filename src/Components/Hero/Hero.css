@@ -1,0 +1,17 @@
+@media screen and (min-width: 600px) {
+    .hero {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        max-width: 1000px;
+        margin: 0 auto;
+        padding: 0 40px;
+        max-height: 430px;
+        margin-bottom: 60px;
+    }
+
+    .hero img {
+        max-width: 300px;
+        display: block;
+        margin: 0 auto;
+    }
+}

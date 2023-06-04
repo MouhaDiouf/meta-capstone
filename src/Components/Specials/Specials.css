@@ -1,0 +1,33 @@
+@media screen and (min-width: 600px) {
+    .specials-header {
+        max-width: 1000px;
+        margin: 30px auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+    }
+
+    .specials-header .specials-title-container {
+        font-weight: 400;
+        grid-column: 1/2;
+        justify-self: start;
+    }
+
+    .specials-title-container p {
+        font-size: 40px;
+    }
+
+    .specials-header .specials-button-container {
+        justify-self: end;
+    }
+
+    .specials-cards {
+        max-width: 1000px;
+        margin: 30px auto;
+    }
+
+    .specials-cards {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
