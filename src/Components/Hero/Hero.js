@@ -12,7 +12,7 @@ function Hero() {
                     <button className="button-yellow">Reserve a Table</button>
                 </div>
                 <div>
-                    <img src={heroImg} />
+                    <img src={heroImg} className="hero-img" />
                 </div>
             </div>
         </section>

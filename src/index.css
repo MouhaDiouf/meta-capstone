@@ -6,6 +6,10 @@
     --primary-yellow: #f4ce14;
 }
 
+img {
+    width: 100%;
+}
+
 .background-primary-green {
     background-color: var(--primary-green);
 }

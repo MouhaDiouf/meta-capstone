@@ -14,3 +14,7 @@
 .main-nav ul li a {
     text-decoration: none;
 }
+
+.logo {
+    max-width: 200px;
+}
