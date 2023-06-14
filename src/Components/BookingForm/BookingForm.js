@@ -29,8 +29,10 @@ function BookingForm({ time, setTime, dispatch, date, setDate, occasion, setOcca
                     Choose time
                 </label>
                 <select id="res-time" data-testid="time-picker" value={availableTimes?.selected} onChange={handleTimeChange} required>
-                    {availableTimes?.slots.map((time) => (
-                        <option value={time}>{time}</option>
+                    {availableTimes?.slots.map((time, idx) => (
+                        <option value={time} key={idx}>
+                            {time}
+                        </option>
                     ))}
                 </select>
                 <label htmlFor="guests" aria-label="Number of guests">

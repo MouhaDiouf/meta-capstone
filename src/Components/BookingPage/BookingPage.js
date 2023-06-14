@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import BookingForm from "../BookingForm/BookingForm";
 function BookingPage({ availableTimes, dispatch, submitForm }) {
-    const [date, setDate] = useState(null);
-    const [time, setTime] = useState(null);
-    const [guests, setGuests] = useState(null);
-    const [occasion, setOccasion] = useState(null);
+    const [date, setDate] = useState("");
+    const [time, setTime] = useState("");
+    const [guests, setGuests] = useState("");
+    const [occasion, setOccasion] = useState("");
 
     return (
         <section className="container">

@@ -4,6 +4,7 @@
 :root {
     --primary-green: #495e57;
     --primary-yellow: #f4ce14;
+    --primary-pink: #ee9972;
 }
 
 img {
@@ -46,6 +47,11 @@ h6 {
     font-family: "Markazi Text", serif;
 }
 
+input,
+select,
+label {
+    font-size: 18px;
+}
 h1,
 h2 {
     margin: 10px auto;
@@ -61,24 +67,46 @@ q,
 ul,
 li,
 a,
-button {
+button,
+label,
+input,
+select {
     font-family: "Karla", serif;
 }
 
-button {
+button,
+.button {
     padding: 20px 30px;
     border: none;
     border-radius: 10px;
     font-size: 18px;
     max-width: 300px;
+    cursor: pointer;
 }
 
+a.button {
+    text-decoration: none;
+    display: inline-block;
+}
+
+button:active,
+.button:active,
+.button:focus,
+button:focus {
+    background-color: var(--primary-green);
+    color: white;
+}
+
+button:disabled {
+    background-color: var(--primary-pink);
+}
 img {
     border-radius: 10px;
 }
 
 .button-yellow {
     background-color: var(--primary-yellow);
+    color: black;
 }
 
 .text-center {

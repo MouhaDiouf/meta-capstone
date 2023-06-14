@@ -3,13 +3,13 @@ import "./Nav.css";
 import { Link } from "react-router-dom";
 function Nav() {
     const navRef = useRef(null);
-
+    const menuIconRef = useRef(null);
     function handleToggleMenu() {
         navRef.current.classList.toggle("show");
     }
     return (
         <>
-            <i class="fa-solid fa-bars menu-icon" onClick={handleToggleMenu}></i>
+            <i className="fa-solid fa-bars menu-icon" onClick={handleToggleMenu} ref={menuIconRef}></i>
             <nav className="main-nav" ref={navRef}>
                 <ul>
                     <li>
