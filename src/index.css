@@ -84,3 +84,12 @@ img {
 .text-center {
     text-align: center;
 }
+
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 50px !important;
+    }
+    h2 {
+        font-size: 35px !important;
+    }
+}

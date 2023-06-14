@@ -18,3 +18,23 @@
 .logo {
     max-width: 200px;
 }
+
+.menu-icon {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    .menu-icon {
+        display: block;
+        position: absolute;
+        right: 40px;
+        top: 50px;
+    }
+
+    .main-nav {
+        display: none;
+    }
+    .main-nav.show {
+        display: block !important;
+    }
+}

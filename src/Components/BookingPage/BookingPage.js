@@ -7,9 +7,9 @@ function BookingPage({ availableTimes, dispatch, submitForm }) {
     const [occasion, setOccasion] = useState(null);
 
     return (
-        <div>
+        <section className="container">
             <BookingForm submitForm={submitForm} time={time} setTime={setTime} setDate={setDate} date={date} guests={guests} setGuests={setGuests} occasion={occasion} setOccasion={setOccasion} availableTimes={availableTimes} dispatch={dispatch} />
-        </div>
+        </section>
     );
 }
 

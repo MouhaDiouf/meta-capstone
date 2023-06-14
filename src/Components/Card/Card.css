@@ -1,5 +1,4 @@
 .card {
-    max-width: 264px;
     background-color: #edefee;
     padding-bottom: 20px;
     border-radius: 10px;
@@ -8,6 +7,8 @@
 
 .card img {
     max-width: 100%;
+    height: 200px;
+    object-fit: cover;
 }
 
 .card-text-container {

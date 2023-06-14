@@ -6,6 +6,7 @@ import BookingPage from "./Components/BookingPage/BookingPage";
 import Footer from "./Components/Footer/Footer";
 import { useEffect, useReducer } from "react";
 import ConfirmedBooking from "./Components/ConfirmedBooking/ConfirmedBooking";
+import About from "./Components/About/About";
 // these next three are coming from the api, to be replaced!
 const seededRandom = function (seed) {
     var m = 2 ** 35 - 31;
@@ -67,6 +68,7 @@ function App() {
             <Routes>
                 <Route path="/" element={<HomePage />}></Route>
                 <Route path="/booking-confirmed" element={<ConfirmedBooking />}></Route>
+                <Route path="/about" element={<About />}></Route>
                 <Route path="/reservations" element={<BookingPage submitForm={submitForm} availableTimes={availableTimes} dispatch={dispatch} />}></Route>
             </Routes>
             <Footer />

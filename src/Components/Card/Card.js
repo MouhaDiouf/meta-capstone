@@ -1,18 +1,18 @@
 import React from "react";
 import greekSalad from "../../icons_assets/greek-salad.png";
 import "./Card.css";
-function Card() {
+function Card({ title, content, img }) {
     return (
         <div className="card">
             <div className="card-img-container">
-                <img src={greekSalad} />
+                <img src={img} />
             </div>
             <div className="card-text-container">
                 <div className="card-title-container">
-                    <h4 className="title">Greek salad</h4>
+                    <h4 className="title">{title}</h4>
                     <p className="price">$12.99</p>
                 </div>
-                <p>The famous greek salad of crispy lettuce, peppers, olives and our Chicago style feta cheese, garnished with crunchy garlic and rosemary croutons. </p>
+                <p>{content}</p>
             </div>
         </div>
     );

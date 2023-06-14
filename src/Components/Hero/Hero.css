@@ -1,4 +1,4 @@
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 750px) {
     .hero {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -16,8 +16,11 @@
     }
 }
 
-@media screen and (max-width: 599px) {
+@media screen and (max-width: 749px) {
     .hero img {
         display: none;
+    }
+    .hero {
+        padding: 30px;
     }
 }
