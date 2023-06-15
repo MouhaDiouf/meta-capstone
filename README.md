@@ -13,7 +13,7 @@ This is the final capstone project of the Meta Frontend Developer Certification 
 
 ## Users Can:
 
-Browse the site and book a reservation a
+Browse the site and book a reservation
 
 ![screenshot](./src/icons_assets/LL_screenshot.png)
 
